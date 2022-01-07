@@ -15,8 +15,8 @@ import sys
 import ast
 import numpy as np
 import pandas as pd
-import signal_funcs as sgnl
-import trial_funcs as trl
+import code.signal_funcs as sgnl
+import code.trial_funcs as trl
 
 def get_stim_amp_labels(clin_stim_amp, max_amp, STIM_AMP_MIN_INTERVAL):
     min_amp = round(clin_stim_amp % STIM_AMP_MIN_INTERVAL, 5)
