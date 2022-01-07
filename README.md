@@ -11,7 +11,7 @@ A practice RC+S time-series dataset that corresponds to a single trial is upload
 
 ## Usage
 ```run_entrainment_task``` contains arguments of: <sample_rate> <current_stim_freq> <current_stim_amp> <max_amp> <num_trials> <num_channel>
-To run this function, navigate to the code folder of this repository in Terminal, and enter in parameters for the function. For example,
+<br/>To run this function, navigate to the code folder of this repository in Terminal, and enter in parameters for the function. For example,
 ```
 python3 code/run_entrainment_task.py 250 130 4 5 40 2
 ```
