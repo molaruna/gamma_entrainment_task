@@ -20,7 +20,7 @@ For each trial, you will be asked to enter the filepath of the corresponding tim
 ```
 Enter full path of current data:
 ```
-A practice file is located in /data for test runs.
+A practice file is located in ```/data``` for test runs.
 
 ## Algorithm
 The task begins at the input stimulation frequency and amplitude. Updates to each trial's stimulation frequency and amplitude are optimized to determine the edges of the Arnold Tongue representations of the stimulation parameter field composed of each trial's gamma entrainment. 
