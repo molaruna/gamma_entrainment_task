@@ -4,7 +4,10 @@ This code uses the raw JSON RC+S time-series outputs to adaptively update stimul
 
 ## Getting started
 
-This code uses Python 3.8.3 
+This code uses Python 3.8.3. Here's how to replicate the exact environment: 
+```
+conda create --name entrain_env --file spec-file.txt
+```
 
 ## Data
 Four practice RC+S time-series datasets that corresponds to four trials are uploaded in ./data/test_data. Each column in the dataset corresponds to an individual sensing channel.
