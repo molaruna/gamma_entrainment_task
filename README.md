@@ -19,7 +19,7 @@ Four practice RC+S Session directories that correspond to four trials are upload
 python3 code/run_entrainment_task.py './data' 4 4 2
 ```
 
-For each trial, the program will stall until a new data directory is added into <data_dir>. Here's one way to add data for a new trial:
+For each trial, the program will stall until a new data directory is added into <data_dir>. Here's one way to add data for a new trial when using the practice Session directories:
 ```
 mv ./data/test_data/Session_trial1 ./data
 ```
