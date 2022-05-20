@@ -20,6 +20,28 @@ For each trial, the program will stall until a new data directory is added into 
 ```
 mv ./data/test_data/Session_trial1 ./data
 ```
+Using the practice datasets, your output will look like this:
+```
+(py383) ➜  entrainment_task git:(main) ✗ python3 code/run_entrainment_task.py './data' 4 4 2
+next trial (#0) stimulation frequency:  129.9
+next trial (#0) stimulation amplitude:  2.7 
+
+next trial (#1) stimulation frequency:  129.9
+next trial (#1) stimulation amplitude:  2.4 
+
+next trial (#2) stimulation frequency:  129.9
+next trial (#2) stimulation amplitude:  2.1 
+
+next trial (#3) stimulation frequency:  129.9
+next trial (#3) stimulation amplitude:  1.8 
+
+       stim_amp  stim_freq entrained
+trial                               
+0           3.0      129.9     False
+1           2.7      129.9     False
+2           2.4      129.9     False
+3           2.1      129.9     False
+```
 
 ## Algorithm
 The task begins at the input stimulation frequency and amplitude. Updates to each trial's stimulation frequency and amplitude are optimized to determine the edges of the Arnold Tongue representations of the stimulation parameter field composed of each trial's gamma entrainment. 
