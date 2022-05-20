@@ -16,7 +16,7 @@ Four practice RC+S time-series datasets that corresponds to four trials are uplo
 python3 code/run_entrainment_task.py './data' 4 4 2
 ```
 
-For each trial, the program will stall until a new data directory is added into <data_dir>. For example,
+For each trial, the program will stall until a new data directory is added into <data_dir>. Here's one way to add data for a new trial:
 ```
 mv ./data/test_data/Session_trial1 ./data
 ```
