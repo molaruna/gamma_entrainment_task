@@ -10,7 +10,7 @@ conda create --name entrain_env --file spec-file.txt
 ```
 
 ## Data
-Four practice RC+S time-series datasets that corresponds to four trials are uploaded in ./data/test_data. Each column in the dataset corresponds to an individual sensing channel.
+Four practice RC+S Session directories that correspond to four trials are uploaded in ./data/test_data. 
 
 ## Usage
 ```run_entrainment_task``` contains arguments of: <data_dir> <max_amp> <num_trials> <channel>
