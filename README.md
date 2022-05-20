@@ -20,7 +20,7 @@ For each trial, the program will stall until a new data directory is added into 
 ```
 mv ./data/test_data/Session_trial1 ./data
 ```
-Using the practice datasets, your output will look like this:
+Here's the output when using the practice datasets:
 ```
 (py383) ➜  entrainment_task git:(main) ✗ python3 code/run_entrainment_task.py './data' 4 4 2
 next trial (#0) stimulation frequency:  129.9
