@@ -3,7 +3,7 @@
 """
 Using the gamma entrainment protocol, this function computes 
 the stimulation parameters of frequency and amplitude
-for an entire gamma entrainment session
+for an entire gamma entrainment session.
 
 python3 run_entrainment_task.py <data_dir> <max_amp> <num_trials> <channel>
 python3 run_entrainment_task.py  ./data 4 40 2 
@@ -88,19 +88,10 @@ def get_ts(td_filepath, channel):
     return [timeseries, sr]
 
 def main():
-#def main(main_dir, max_amp, num_trials, channel):
     main_dir = sys.argv[1]
     max_amp = float(sys.argv[2])
     num_trials = int(sys.argv[3])
     channel = ast.literal_eval(sys.argv[4])      
-
-    #these parameters may change on a pt-by-pt basis
-    #debugging:
-    
-    #main_dir = './data'
-    #max_amp = 4
-    #num_trials = 4
-    #channel = 2
     
     STIM_AMP_INTERVAL = 0.3 #need to program in a ramp rate of 0.1mA/s    
     STIM_FREQ_INTERVAL = 2
@@ -111,7 +102,8 @@ def main():
     df_trials.index.name = 'trial'
     
     session_dir_list = get_current_sessions(main_dir)
-    #Calculate each trial's stim parameters for the entire session
+
+    #Calculate each trial's stim parameters throughout the taskå
     for i in range(num_trials):
         
         #Wait to execute code until a new file is detected in the parent directory
