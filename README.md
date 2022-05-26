@@ -47,4 +47,4 @@ trial
 ```
 
 ## Algorithm
-The task begins at the input stimulation frequency and amplitude. Updates to each trial's stimulation frequency and amplitude are optimized to determine the edges of the Arnold Tongue representations of the stimulation parameter field composed of each trial's gamma entrainment. 
+The task begins at the patient's current stimulation frequency and amplitude. Updates to each trial's stimulation frequency and amplitude are optimized to determine the edges of the Arnold Tongue representations of the stimulation parameter field composed of each trial's gamma entrainment. 
